@@ -7,17 +7,17 @@ a = -9 b = -3 -> max = -3
 int max = 0;
 
 Console.Write("Введите первое число: ");
-int FirstNumber = Convert.ToInt32(Console.ReadLine());
+int firstNumber = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите второе число: ");
-int SecondNumber = Convert.ToInt32(Console.ReadLine());
+int secondNumber = Convert.ToInt32(Console.ReadLine());
 
-if(FirstNumber > SecondNumber)
+if(firstNumber > SecondNumber)
 {
-    max = FirstNumber;
+    max = firstNumber;
 }
 else
 {
-    max = SecondNumber;
+    max = secondNumber;
 }
 Console.WriteLine("max = " + max);
