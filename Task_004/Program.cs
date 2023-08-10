@@ -7,15 +7,15 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 int evenNumber = 2;
 
-if(number > 1)
+if (number > 1)
 {
-    while(evenNumber <= number)
+    while (evenNumber <= number)
     {
         Console.Write(evenNumber);
-        if(evenNumber<number)
-         {
-        Console.Write(", ");
+        if (evenNumber < number)
+        {
+            Console.Write(", ");
         }
-        evenNumber = evenNumber + 2;
+        evenNumber += 2;
     }
 }
